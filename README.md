@@ -1,5 +1,16 @@
 # MAKE BOT LOGIN
 
+```
+DOWNLOAD APP TERMUX DI PLAYSTORE
+lalu ketik di termux :
+apt update 
+apt upgrade
+pkg update
+pkg upgrade
+
+
+```
+
 - first install module 
 ``` 
 pkg install python2
