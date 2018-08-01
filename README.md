@@ -11,6 +11,7 @@ pip2 install requests
 
 - To running
 ```
+git clone https://github.com/oxin12/LOGIN.git
 cd LOGIN
 python2 login.py
 
