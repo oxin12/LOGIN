@@ -132,19 +132,19 @@ def bot(op):
         if op.type == 24:
             if wait["leaveRoom"] == True:
                 cl.leaveRoom(op.param1)
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.toType == 1:
                 if wait["leaveRoom"] == True:
                     cl.leaveRoom(msg.to)
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.text in [".help"]:
               if msg.from_ in creator+admin:
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,helpMessage1)
                     
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.text in [".headers"]:
               if msg.from_ in creator+admin:
